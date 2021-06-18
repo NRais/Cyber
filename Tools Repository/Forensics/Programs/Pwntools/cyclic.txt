@@ -1,0 +1,27 @@
+For buffer overflow exploits:
+
+- It's possible to calculate the length of bytes between instructions by analyzing the disassembly.
+- Cyclic generates a De-Bruijn sequence which is entered as input to the program.
+
+*****
+$ cyclic -n 4 550 | ./vuln
+
+User provided 550 bytes. Buffer content is: aaaabaaacaaadaaaeaaafaaagaaahaaaiaaajaaakaaalaaamaaanaaaoaaapaaaqaaaraaasaaataaauaaavaaawaaaxaaayaaazaabbaabcaabdaabeaabfaabgaabhaabiaabjaabkaablaabmaabnaaboaabpaabqaabraabsaabtaabuaabvaabwaabxaabyaabzaacbaaccaacdaaceaacfaacgaachaaciaacjaackaaclaacmaacnaacoaacpaacqaacraacsaactaacuaacvaacwaacxaacyaaczaadbaadcaaddaadeaadfaadgaadhaadiaadjaadkaadlaadmaadnaadoaadpaadqaadraadsaadtaaduaadvaadwaadxaadyaadzaaebaaecaaedaaeeaaefaaegaaehaaeiaaejaaekaaelaaemaaenaaeoaaepaaeqaaeraaesaaetaaeuaaevaaewaaexaaeyaae&
+zsh: done                cyclic -n 4 550 |
+zsh: segmentation fault  ./vuln
+*****
+
+- Checking the error log recovers the pointer 0x66616165
+
+*****
+$ sudo dmesg | tail -n 2
+[13575.170536] vuln[2738]: segfault at 66616165 ip 0000000066616165 sp 00000000ffeb7510 error 14 in libc-2.31.so[f7dc6000+1d000]
+[13575.170545] Code: Unable to access opcode bytes at RIP 0x6661613b.
+*****
+
+- Cyclic can tell us how many bytes where needed for this instruction to be overriden
+
+*****
+$ cyclic -n 4 -l 0x66616165
+516
+*****

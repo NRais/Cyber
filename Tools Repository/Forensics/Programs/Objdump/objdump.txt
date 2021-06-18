@@ -1,0 +1,7 @@
+
+- Gain the address of an instruction in a binary (ex. "success")
+
+*****
+$ objdump -D ./vuln | grep success
+08049182 <success>:
+*****
