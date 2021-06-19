@@ -1,6 +1,7 @@
 
-![NZCSC](https://github.com/NRais/Cyber/blob/main/NZCSC%202021/images/2021.png) ![Waikato](https://github.com/NRais/Cyber/blob/main/NZCSC%202021/images/waikato.png)
+![NZCSC](https://github.com/NRais/Cyber/blob/main/NZCSC%202021/images/2021.png)           ![Waikato](https://github.com/NRais/Cyber/blob/main/NZCSC%202021/images/waikato.png)
 
+---
 
 The Nathansoftware team are proud to announce that we qualified for the national NZCSC Capture the Flag event.
 
@@ -31,7 +32,7 @@ Challenges included use of common security and forensic tools such as Burpsuite,
    
 Full writeups are available in the individual folders.
 
-
+---
 
 ![Ghidra](https://github.com/NRais/Cyber/blob/main/NZCSC%202021/images/ghidra.png)
 
