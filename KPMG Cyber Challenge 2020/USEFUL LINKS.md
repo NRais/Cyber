@@ -1,36 +1,19 @@
-### Everything you need *![CTF Katana](https://github.com/JohnHammond/ctf-katana)*
+## Cyber Security Tools/Links
 
+- **Everything Guide** *![CTF Katana](https://github.com/JohnHammond/ctf-katana)*
 
-**Free online barcode reader:**
+- **Free online barcode reader:** https://online-barcode-reader.inliteresearch.com/
 
-https://online-barcode-reader.inliteresearch.com/
+- **Online reader (Exiftool):** http://exif.regex.info/exif.cgi
 
-**Online reader (Exiftool):**
+- **Web archive (Wayback machine):** https://archive.org/
 
-http://exif.regex.info/exif.cgi
+- **Sub-domain look up tool** https://dnsdumpster.com/
 
-**Web archive (Wayback machine):**
+- **WHOIS** https://www.whois.com/whois/
 
-https://archive.org/
+- **Default Password Website** https://cirt.net/password | https://www.routerpasswords.com/
 
-**Sub-domain look up tool**
+- **Shodan IoT scanner** https://www.shodan.io
 
-https://dnsdumpster.com/
-
-**WHOIS**
-
-https://www.whois.com/whois/
-
-**Default Password Website**
-
-https://cirt.net/passwords
-https://www.routerpasswords.com/
-
-**Shodan IoT scanner**
-
-https://www.shodan.io
-
-
-**Cryptography (Cyberchef)**
-
-http://icyberchef.com/
+- **Cryptography (Cyberchef)** http://icyberchef.com/
