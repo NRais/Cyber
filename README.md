@@ -4,7 +4,22 @@ Cyber portfolio, toolkit and recent projects.
 
 # Notes
 
-Here are 21 cybersecurity search engines:
+Here are a few useful cybersecurity tools:
+
+### Proxy/Packet Scanners
+
+1. Wireshark
+2. Burpsuite
+3. OWASP ZAP
+
+### Forensics
+
+1. Binwalk
+2. Boomerang
+3. Exiftool
+4. Foremost
+
+### Search Engines
 
 1. Shodan—Search for devices connected to the internet.
 2. Wigle—Database of wireless networks, with statistics.
@@ -24,6 +39,20 @@ Here are 21 cybersecurity search engines:
 16. FullHunt—Search and discovery attack surfaces.
 17. CRT sh—Search for certs that have been logged by CT.
 18. Vulners—Search vulnerabilities in a large database.
-19 Pulsedive—Search for threat intelligence.
+19. Pulsedive—Search for threat intelligence.
 20. Packet Storm Security—Browse latest vulnerabilities and exploits.
 21. GrayHatWarefare—Search public S3 buckets.
+
+### Reverse Engineering
+
+1. Ghidra
+2. IDA
+
+### OSINT
+
+1. Haveibeenpwned
+2. DNSdumpster.com
+3. public bucket searching
+4. viewdnsinfo
+5. shodan.io
+6. Open cloud platforms (github, pastebin, jira, repos)
