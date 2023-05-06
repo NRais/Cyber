@@ -12,12 +12,14 @@ Here are a few useful cybersecurity tools:
 2. Burpsuite
 3. OWASP ZAP
 
-### Forensics
+### Forensics/Image Analysis
 
 1. Binwalk
 2. Boomerang
 3. Exiftool
 4. Foremost
+5. GIMP (why not :) )
+6. A hexeditor that you like
 
 ### Search Engines
 
@@ -47,6 +49,13 @@ Here are a few useful cybersecurity tools:
 
 1. Ghidra
 2. IDA
+
+### Decryption Tools
+
+1. [Cyber Chef](https://gchq.github.io/CyberChef/)
+2. [dcode.fr](https://www.dcode.fr/caesar-cipher)
+3. [rapidtables](https://www.rapidtables.com/convert/number/decimal-to-hex.html)
+4. [SolveAllCiphersInsantly](The_fact_that_you_click_links_without_reading_where_they_go_is_pretty_silly)
 
 ### OSINT
 
