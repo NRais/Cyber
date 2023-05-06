@@ -21,7 +21,26 @@ Here are a few useful cybersecurity tools:
 5. GIMP (why not :) )
 6. A hexeditor that you like
 
-### Search Engines
+### Reverse Engineering
+
+1. Ghidra
+2. IDA
+
+### Decryption Tools
+
+1. [Cyber Chef](https://gchq.github.io/CyberChef/)
+2. [dcode.fr](https://www.dcode.fr/caesar-cipher)
+3. [rapidtables](https://www.rapidtables.com/convert/number/decimal-to-hex.html)
+4. [SolveAllCiphersInsantly](The_fact_that_you_click_links_without_reading_where_they_go_is_pretty_silly)
+
+### OSINT
+
+1. Haveibeenpwned
+2. DNSdumpster.com
+3. viewdnsinfo
+4. shodan.io
+
+### OSINT Search Engines (search open cloud platforms, ex. github, pastebin, jira, repos)
 
 1. Shodan—Search for devices connected to the internet.
 2. Wigle—Database of wireless networks, with statistics.
@@ -44,24 +63,3 @@ Here are a few useful cybersecurity tools:
 19. Pulsedive—Search for threat intelligence.
 20. Packet Storm Security—Browse latest vulnerabilities and exploits.
 21. GrayHatWarefare—Search public S3 buckets.
-
-### Reverse Engineering
-
-1. Ghidra
-2. IDA
-
-### Decryption Tools
-
-1. [Cyber Chef](https://gchq.github.io/CyberChef/)
-2. [dcode.fr](https://www.dcode.fr/caesar-cipher)
-3. [rapidtables](https://www.rapidtables.com/convert/number/decimal-to-hex.html)
-4. [SolveAllCiphersInsantly](The_fact_that_you_click_links_without_reading_where_they_go_is_pretty_silly)
-
-### OSINT
-
-1. Haveibeenpwned
-2. DNSdumpster.com
-3. public bucket searching
-4. viewdnsinfo
-5. shodan.io
-6. Open cloud platforms (github, pastebin, jira, repos)
