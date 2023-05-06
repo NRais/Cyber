@@ -1,0 +1,58 @@
+cd /home/resti/Projects/CYBR371/A1/
+cd /opt/WellingtonClinic/
+cd /opt/WellingtonClinic/patients/
+
+################################ ################################ ################################ ################################
+################################ 		GO THROUGH AND SET to ABSOLUTE /opt/WellingtonClinic/		################################
+################################ ################################ ################################ ################################
+
+#2 mkdir alternatives
+
+mkdir -p WellingtonClinic/staff/administrators
+mkdir -p WellingtonClinic/staff/nurses
+mkdir -p WellingtonClinic/staff/receptionists
+mkdir -p WellingtonClinic/staff/doctors
+mkdir -p WellingtonClinic/scripts
+mkdir -p WellingtonClinic/patients
+
+
+#3 give the temporary receptionists receptionist roles
+
+NOTES: probably don't need to create an administrator user because persumably that would be the one running the script?
+QUESTION: HOW TO DO SUDO STUFF IN A SCRIPT? (ex give sudo/root/role)
+
+#4 find file acl storage
+
+- getfacl FILE
+- df -i FILE
+- (navigate to /dev/sdb)
+- stat FILE
+
+#5 set acls
+
+Note we are setting the default acls after having created the staff files. Oh well.
+
+The d: only affects the default and not the current acls which is perfect for... default acls.
+- setfacl -m d:o:rx WellingtonClinic/
+
+//TODO SET DEFAULT ACLS FOR OTHER FOLDERS, SET PERMS FOR LOG FILES
+
+#6 does giving rwx enough to allow setfacl?
+
+
+#7 before you could have done this with permissions and simple acls only now you need to work more with acls.
+
+There is overlap because nurses can be receptionists but receptionists are not nurses.
+
+The script will input a patient/doctor, extract the id, find the patient exists. If so they doctor assigned will be added to subfolder of the patient and its two files.
+
+
+#8 searching the user acls for permissions for a doctor?
+
+#11 the script should go read the file and then filter the information for the nurse, deleting the parts they shouldn't see
+
+
+
+#12 use external library for logging
+
+ (use auditctl to set rules and ausearch to retrieve logs) and watchdog because neither records both the filename and the user doing the modification lmao
