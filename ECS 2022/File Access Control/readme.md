@@ -1,11 +1,8 @@
-﻿[redacted]	CYBR 371 Assignment 1	[redacted]
-
-
-**CYBR 371 ASSIGNMENT 1**
+# **CYBR 371 ASSIGNMENT 1**
 
 Nathanael Rais
 
-**Notes**:** Please find on subsequent pages answers to Task 1 (access control matrix), Task 4 (acls) and Task 13 (nurse privacy protection).
+**Notes**: Please find on subsequent pages answers to Task 1 (access control matrix), Task 4 (acls) and Task 13 (nurse privacy protection).
 
 **Assignment Description:**
 
