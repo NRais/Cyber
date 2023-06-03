@@ -18,8 +18,9 @@ Here are a few useful cybersecurity tools:
 2. Boomerang
 3. Exiftool
 4. Foremost
-5. GIMP (why not :) )
-6. A hexeditor that you like
+5. fotoforensics.com
+6. GIMP (why not :) )
+7. A hexeditor that you like
 
 ### Reverse Engineering
 
