@@ -1,0 +1,9 @@
+Decrypting Base64:
+
+1. create a text file and past the base64
+
+2. change the filename to .base64
+
+3. navigate to the file in the cmd
+
+4. "certutil -decode encode.base64 output.txt"
