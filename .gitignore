@@ -1196,3 +1196,6 @@ Tools Repository/Network analysis/WiresharkPortable64/App/Wireshark/zlib1.dll
 Tools Repository/Network analysis/WiresharkPortable64/App/Wireshark/zstd.dll
 Tools Repository/Network analysis/WiresharkPortable64/help.html
 Tools Repository/Network analysis/WiresharkPortable64/WiresharkPortable64.exe
+Tools Repository/Network analysis/WiresharkPortable64/Data/recent_common
+Tools Repository/Network analysis/WiresharkPortable64/Data/recent
+Tools Repository/Network analysis/WiresharkPortable64/Data/settings/WiresharkPortable64Settings.ini
