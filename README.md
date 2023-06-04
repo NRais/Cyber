@@ -18,14 +18,17 @@ Here are a few useful cybersecurity tools:
 2. Boomerang
 3. Exiftool
 4. Foremost
-5. fotoforensics.com
-6. GIMP (why not :) )
-7. A hexeditor that you like
+5. stegsolve, steghide
+6. Websites: fotoforensics.com, Aperisolve.fr 
+7. GIMP (why not :) )
+8. A hexeditor
 
 ### Reverse Engineering
 
 1. Ghidra
 2. IDA
+3. objdump
+4. pwntools
 
 ### Decryption Tools
 
@@ -33,6 +36,10 @@ Here are a few useful cybersecurity tools:
 2. [dcode.fr](https://www.dcode.fr/caesar-cipher)
 3. [rapidtables](https://www.rapidtables.com/convert/number/decimal-to-hex.html)
 4. [SolveAllCiphersInsantly](The_fact_that_you_click_links_without_reading_where_they_go_is_pretty_silly)
+
+### Brute Forcing
+
+1. Hydra
 
 ### OSINT
 
